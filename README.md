@@ -28,7 +28,7 @@ In order to unblock the queue when any error is encountered while processing a m
 The consumer of Primary Queue does the following on cosuming a message:
 
 ```javascript
-if the message is from a Blocked User {
+if(REDIS CACHE contains message.user_id) {
   RETRY_QUEUE.push(message)
   EXIT
 }
@@ -57,6 +57,6 @@ try {
 
 # Architechture Diagram
 
-![https://raw.githubusercontent.com/xkeshav29/failure-handling/master/Architechture.png]
+![Architechture](https://raw.githubusercontent.com/xkeshav29/failure-handling/master/Architechture.png)
 
 
