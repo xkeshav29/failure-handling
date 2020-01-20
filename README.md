@@ -57,6 +57,6 @@ try {
 
 # Architechture Diagram
 
-
+![https://raw.githubusercontent.com/xkeshav29/failure-handling/master/Architechture.png]
 
 
