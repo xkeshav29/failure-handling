@@ -10,7 +10,7 @@ This has following downsides:
 
 # Desired State
 
-Error processing message from some Users shoudl not cause downtime for all users.
+Error processing message from some Users should not cause downtime for all users.
 
 
 # Proposed Solution
