@@ -5,7 +5,7 @@ When processing the message from any user fails, the entire queue is blocked whi
 Once the error is fixed, the consumption from the queue is resumed resulting in delivering the next instruction for all messages in the queue.
 
 This has following downsides:
-1. Bad User Experience waiting for next instruction for long
+1. Bad User Experience because of waiting for next instruction for long.
 2. Job seekers might drop off from the point when the response took too long.
 
 # Desired State
