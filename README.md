@@ -55,8 +55,8 @@ try {
 }
 ```
 
-# Architechture Diagram
+# Architecture Diagram
 
-![Architechture](https://raw.githubusercontent.com/xkeshav29/failure-handling/master/Architechture.png)
+![Architecture](https://raw.githubusercontent.com/xkeshav29/failure-handling/master/Architechture.png)
 
 
